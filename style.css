@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: Karla;
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(min-width: 375px) {
+    .container {
+
+        display: grid;
+
+        grid-template-rows: 310px 280px 270px;
+        grid-template-columns: 375px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 40px 2px hsl(218, 22%, 67%);
+        border-radius: 3%;
+        
+        grid-template-areas: 
+        'principal'
+        'section'
+        'footer'
+        ;
+    }
+
+    .principal {
+        grid-area: principal;
+        padding: 3% 7% 7% 7%;
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        background-color: white;
+        line-height: 30px;
+    }
+
+    .section {
+        grid-area: section;
+        padding: 5% 7% 7% 7%;
+        background-color: hsl(179, 62%, 43%);
+        color: white;
+    }
+
+    .footer {
+        grid-area: footer;
+        padding: 5% 7% 7% 7%;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        background-color: hsl(179, 49%, 50%);
+        color: white; 
+    }
+
+    .button {
+        margin: 5% 0 2% -2%;
+        width: 335px;
+        height: 60px;
+        background-color: hsl(71, 73%, 54%);
+        color: white;
+        font-weight: 700;
+        border: 1px solid rgb(16, 168, 16);
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 0px 1px rgb(103, 255, 103) inset;
+        font-size: 16px;    
+    }
+
+    .p1 {
+        color: hsl(71, 73%, 54%);
+        font-weight: 700;
+        margin: 0;
+        padding-bottom: 15px;
+        line-height: 22px;
+    }
+
+    .dollar {
+        font-size: 20px;
+        opacity: 0.9;
+        margin: 0 0 0 0;
+        padding: 5% 0 5% 0;
+        font-weight: 400;
+    }
+}
+
+@media(min-width: 1440px) {
+    .container {
+
+        display: grid;
+
+        grid-template-rows: 220px 290px;
+        grid-template-columns: 340px 340px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 40px 2px hsl(218, 22%, 67%);
+        
+        grid-template-areas: 
+        'principal principal'
+        'section footer'
+        ;
+    }
+
+    .principal {
+        grid-area: principal;
+        padding: 3% 7% 7% 6%;
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        background-color: white;
+        line-height: 30px;
+    }
+
+    .section {
+        grid-area: section;
+        padding: 7% 7% 7% 12%;
+        border-bottom-left-radius: 3%;
+        background-color: hsl(179, 62%, 43%);
+        color: white;
+    }
+
+    .footer {
+        grid-area: footer;
+        padding: 7% 7% 7% 12%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 3%;
+        background-color: hsl(179, 49%, 50%);
+        color: white;
+    }
+
+    .button {
+        margin: 5% 0 2% -2%;
+        width: 250px;
+        height: 50px;
+        background-color: hsl(71, 73%, 54%);
+        color: white;
+        font-weight: 700;
+        border: 1px solid rgb(16, 168, 16);
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 0px 1px rgb(103, 255, 103) inset;   
+        font-size: 16px; 
+    }
+
+    .p1 {
+        color: hsl(71, 73%, 54%);
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .dollar {
+        font-size: 16px;
+        opacity: 0.9;
+        margin: 0 0 0 0;
+        padding: 5% 0 7% 0;
+        font-weight: 400;
+    }
+}
+
+
+.h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.p2 {
+    color: black;
+    opacity: 0.5;
+    font-weight: 400;
+    margin: 0;
+}
+
+.h2section {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.o29 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.permonth {
+    display: inline-block;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0 0 0 3%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.whyus {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.textfooter {
+    line-height: 6px;
+    color: hsl(204, 43%, 93%);
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: hsl(218, 22%, 67%);
+}
+
+p {
+    display: flex;
+}
