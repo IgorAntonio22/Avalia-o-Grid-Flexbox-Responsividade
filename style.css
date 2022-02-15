@@ -15,7 +15,6 @@ body {
 
 @media(min-width: 375px) {
     .container {
-
         display: grid;
 
         grid-template-rows: 310px 280px 270px;
@@ -89,7 +88,6 @@ body {
 
 @media(min-width: 1440px) {
     .container {
-
         display: grid;
 
         grid-template-rows: 220px 290px;
