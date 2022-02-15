@@ -214,7 +214,3 @@ body {
     cursor: pointer;
     color: hsl(218, 22%, 67%);
 }
-
-p {
-    display: flex;
-}
